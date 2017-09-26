@@ -36,7 +36,7 @@ EntryURL="https://brandspace.deloitte.com/content/index/guid/image_library?searc
 entryWaitSecs = 5
 downloadWaitSecs= 0.5
 count = 0
-delta = 0.3
+percent = 0.3
 filesPerPage = 24
 
 start = time.time()
