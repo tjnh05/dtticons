@@ -36,7 +36,7 @@ EntryURL="https://brandspace.deloitte.com/content/index/guid/image_library?searc
 entryWaitSecs = 5
 downloadWaitSecs= 0.5
 count = 0
-delta = 500
+delta = 0.3
 filesPerPage = 24
 
 start = time.time()
@@ -87,7 +87,7 @@ except Exception as e:
     sys.exit(1)
 
 errind = 0
-maxicons = total + delta
+maxicons = total * (1 + percent)
 while count <= maxicons:
     try:
         downloadx = list()
