@@ -1,6 +1,6 @@
 '''
 Desc:
-Download icons from web site https://brandspace.deloitte.com.
+Download icons from web site https://brandspace.xxx.com.
 Details please see also variable EntryURL defined in this program
 
 Requirements:
@@ -8,11 +8,9 @@ Requirements:
 https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver
 2.Module selenium is also required, you can perform commands below to install:
 pip install selenium
-3.Only for Deloitte employees to use because of the identification verify.
-You have to enter into Deloitte intranet at first, for example via VPN.
 
 Author:
-Bodhi Wang (bodwang@deloitte.com.cn)
+Bodhi Wang (jyxz5@qq.com)
 2017.9.25
 '''
 # coding utf-8
@@ -31,7 +29,7 @@ def getHumanTime(sec):
         return '{0:d} second(s)'.format(int(sec))
 
 
-EntryURL="https://brandspace.deloitte.com/content/index/guid/image_library?search_term=&list_size=24&assettag%5B17%5D%5B%5D=46"
+EntryURL="https://xxx.com/content/index/guid/image_library?search_term=&list_size=24&assettag%5B17%5D%5B%5D=46"
 
 entryWaitSecs = 5
 downloadWaitSecs= 0.5
