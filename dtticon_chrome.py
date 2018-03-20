@@ -29,7 +29,7 @@ def getHumanTime(sec):
         return '{0:d} second(s)'.format(int(sec))
 
 
-EntryURL="https://xxx.com/content/index/guid/image_library?search_term=&list_size=24&assettag%5B17%5D%5B%5D=46"
+EntryURL="https://brandspace.xxx.com/content/index/guid/image_library?search_term=&list_size=24&assettag%5B17%5D%5B%5D=46"
 
 entryWaitSecs = 5
 downloadWaitSecs= 0.5
